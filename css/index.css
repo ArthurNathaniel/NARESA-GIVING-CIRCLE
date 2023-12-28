@@ -1,0 +1,120 @@
+.hero-all{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.hero-text h1{
+    font-size:55px ;
+}
+.hero-text p{
+    margin-block: 30px;
+}
+
+.hero-btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-donate{
+    border: none;
+    padding: 15px 45px;
+    background-color: #cd2208;
+}
+
+.hero-donate a{
+        color: #fff;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: flex-end;
+}
+.discover{
+    color: #000;
+
+}
+
+.discover span{
+  
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.hero-donate span{
+    padding-left: 10px;
+}
+
+.about-all{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10%;
+    margin-top: 70px;
+}
+
+.about-text h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #cd2208;
+}
+
+.about-text p{
+    margin-bottom: 15px;
+}
+
+.about-btns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+        margin-top: 20px;
+}
+
+.about-btn{
+    padding: 15px 20px;
+    background-color: #cd2208;
+    border: none;
+}
+
+.about-btn span{
+    padding-left: 20px;
+}
+
+.about-btn a{
+    color: #fff;
+}
+
+.donate{
+    color: #000;
+}
+
+.projects-all{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 10%;
+    margin-top: 70px;
+    
+}
+.icons{
+    width: 80px;
+    height: 80px;
+    background-color: #f3f5f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 25px;
+    color: #cd2208
+}
+
+.project{
+    width: 95%;
+    text-align: center;
+}
