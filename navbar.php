@@ -3,9 +3,9 @@
         <a href="tel:+233548329648"><i class="fas fa-phone"></i>+233 54 832 9648</a>
     </div>
     <div class="social-media">
-        <a href="https://web.facebook.com/monipeehotels" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/monipeehotel/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://twitter.com/MonipeeH" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
 
     </div>
 </header>
@@ -17,12 +17,14 @@
     <div class="nav-items">
         <div class="nav-links">
             <a href="index.php">Home</a>
-            <a href="">About Us</a>
+            <a href="about.php">About Us</a>
             <div class="dropdown">
                 <button class="dropbtn">Our Projects<i class="fa-solid fa-angle-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="">Help for Kids</a>
-                    <a href="">Supports for School</a>
+                    <a href="">Water Project</a>
+                    <a href="">Education Project</a>
+                    <a href="">Foods Project</a>
+                    <a href="">Health Project</a>
                 </div>
             </div>
             <a href="">Volunteer</a>

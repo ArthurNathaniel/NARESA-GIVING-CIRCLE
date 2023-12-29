@@ -1,0 +1,73 @@
+.hero-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10%;
+    padding-block: 50px;
+    background-color: #cd22085a;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    width: 100%;
+}
+
+.hero-text p {
+    margin-block: 30px;
+}
+
+.hero-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-donate {
+    border: none;
+    padding: 15px 45px;
+    background-color: #cd2208;
+}
+
+.hero-donate a {
+    color: #fff;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.discover {
+    color: #000;
+
+}
+
+.discover span {
+
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.hero-donate span {
+    padding-left: 10px;
+}
+
+.about{
+    padding: 0 10%;
+    margin-top: 40px;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #cd2208;
+}
