@@ -1,108 +1,113 @@
-.hero-all{
+.hero-all {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 10%;
 }
-.hero-text{
+
+.hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.hero-text h1{
-    font-size:55px ;
+
+.hero-text h1 {
+    font-size: 55px;
 }
-.hero-text p{
+
+.hero-text p {
     margin-block: 30px;
 }
 
-.hero-btns{
+.hero-btns {
     width: 100%;
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.hero-donate{
+.hero-donate {
     border: none;
     padding: 15px 45px;
     background-color: #cd2208;
 }
 
-.hero-donate a{
-        color: #fff;
+.hero-donate a {
+    color: #fff;
 }
 
-.hero-image{
+.hero-image {
     display: flex;
     justify-content: flex-end;
 }
-.discover{
+
+.discover {
     color: #000;
 
 }
 
-.discover span{
-  
+.discover span {
+
     padding-left: 20px;
     margin-right: 20px;
 }
 
-.hero-donate span{
+.hero-donate span {
     padding-left: 10px;
 }
 
-.about-all{
+.about-all {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 10%;
     margin-top: 70px;
 }
 
-.about-text h1{
+.about-text h1 {
     font-size: 45px;
     margin-bottom: 20px;
     color: #cd2208;
 }
 
-.about-text p{
+.about-text p {
     margin-bottom: 15px;
 }
 
-.about-btns{
+.about-btns {
     display: flex;
     gap: 20px;
     align-items: center;
-        margin-top: 20px;
+    margin-top: 20px;
 }
 
-.about-btn{
+.about-btn {
     padding: 15px 20px;
     background-color: #cd2208;
     border: none;
 }
 
-.about-btn span{
+.about-btn span {
     padding-left: 20px;
 }
 
-.about-btn a{
+.about-btn a {
     color: #fff;
 }
 
-.donate{
+.donate {
     color: #000;
 }
 
-.projects-all{
+.projects-all {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0 10%;
     margin-top: 70px;
-    
+
 }
-.icons{
+
+.icons {
     width: 80px;
     height: 80px;
     background-color: #f3f5f6;
@@ -114,7 +119,66 @@
     color: #cd2208
 }
 
-.project{
+.project {
     width: 95%;
     text-align: center;
+}
+
+.bg-video {
+    margin-top: 70px;
+    background-image: url("../images/bg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.play h1{
+background-color: #cd2208;
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color: #f3f5f6;
+}
+
+.play a{
+    color: #f3f5f6;
+}
+
+.be-all{
+    padding: 0 10%;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.be-image{
+    width: 95%;
+}
+
+.be-text h1{
+    color: #cd2208;
+    margin-bottom: 20px;
+}
+
+.be-text h4{
+    margin-top: 20px;
+}
+.steps{
+    margin-top: 20px;
+}
+
+.steps b{
+    color: #cd2208;
 }

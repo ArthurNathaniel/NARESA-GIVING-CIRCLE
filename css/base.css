@@ -188,7 +188,7 @@ background-color: #cd2208;
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0 10%;
 background-color: #cd2208;
     padding-top: 50px;
@@ -197,10 +197,10 @@ background-color: #cd2208;
 
 .ft-logo {
     height: 150px;
-    width: 150px;
-    background-image: url(../images/logo.jpg);
+    width: 100%;
+    background-image: url(../images/logo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .footer-grid a {
@@ -268,8 +268,12 @@ background-color: #cd2208;
     color: #fff;
 }
 
-
-
+.ft-box {
+    width: 90%;}
+.copyright{
+    text-align: center;
+    padding-block: 10px;
+}
 @media only screen and (max-width: 1110px) {
     body {
         overflow-x: hidden;
@@ -395,6 +399,7 @@ background-color: #cd2208;
     }
 
     .ft-box {
+        width: 95%;
         margin-bottom: 50px;
 
     }

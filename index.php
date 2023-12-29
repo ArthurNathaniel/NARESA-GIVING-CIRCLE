@@ -85,6 +85,69 @@
         </div>
     </section>
 
+    <section>
+        <div class="bg-video">
+            <div class="play">
+                <h1><a href="https://www.youtube.com/live/7lgAZnYH2-c?si=PyClUz6F1nmw76bS" target="_blank">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="be-all">
+            <div class="be-image">
+                <img src="./images/be_a_member.png" alt="">
+            </div>
+            <div class="be-text">
+                <h1>Join Naresa Giving Circle</h1>
+                <p>
+                    We invite you to become a member of the Naresa Giving Circle,
+                    a community dedicated to making a positive impact through
+                    collective philanthropy. Joining is simple - just follow the
+                    steps below:
+                </p>
+
+                <h4>How to Join:</h4>
+
+                <div class="steps">
+                    <b><i>WhatsApp Us:</i></b>
+                    <p>
+                        Message us your name at [Your WhatsApp Number] to embark on your journey with us.
+                    </p>
+                </div>
+
+                <div class="steps">
+                    <b><i>Monthly Contributions:</i></b>
+                    <p>
+                        Commit to a monthly donation and watch your support turn into a continuous force for positive change. Every contribution, big or small, makes a difference.
+
+                    </p>
+                </div>
+
+                <div class="steps">
+                    <b><i>Bi-Annual Drives:
+                        </i></b>
+                    <p>
+                        Amplify your impact by participating in our bi-annual donation drives. These special events allow us to come together, maximizing our collective strength for a more significant and lasting effect.
+
+                    </p>
+                </div>
+
+                <div class="steps">
+                    <b><i>Community Engagement:
+                        </i></b>
+                    <p>
+                        Beyond donations, engage with our community. Share ideas, insights, and experiences with like-minded individuals who share a passion for creating a better world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php include 'footer.php'?>
 </body>
 
 </html>
